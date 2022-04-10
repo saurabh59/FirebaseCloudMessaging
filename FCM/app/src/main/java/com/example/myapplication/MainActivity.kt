@@ -17,10 +17,10 @@ class MainActivity : AppCompatActivity() {
     //Api
     val baseURL = "https://fcm.googleapis.com/fcm/send"
     // From firebase
-    val serverKey = "key=" + "AAAAyPSzGV0:APA91bGJc25z-7M-7ZXx_44mFX06R19BAsG7JxtfWR7qZYKkJPFLKh51Lgw4F0CEjKhR0SSydL8VJ8T15DDYusOpp3xFCF2PGXkFIJCTZ1s24sTmzFd_8eTpyiaOvWGYheu_kGErr39F"
+    val serverKey = "key=" + "yourServerKey"
     val contentType = "application/json"
-    //Obtained when user installs or re-installs the app, should be put into database
-    private val userToken = "epvnkDRxQzKw_fsmxhZ-Fe:APA91bESDjPmv8GffCK0Urdmdaa6oeFtvczPZwXsyfZFXGqp6FR73f_Yxht4YuUbYwLw3pPi-f9Dh_D448NSL8f9pKFMDkUZtPVaz2iIOynvtJJ3ko53vb_EwjxjZMOnvSQxJfzF2Jp6"
+    //Obtained when user installs or re-installs the app(Check the logs), should be put into database
+    private val userToken = "genratedUserToken"
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
